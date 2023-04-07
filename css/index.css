@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;600&family=Ubuntu:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;600&family=Ubuntu:wght@300;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif, "Source Serif Pro";
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  height: 383px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card .book-name {
+  height: 31px;
+  margin: 5px;
+}
+.card .book-autor {
+  margin: 5px;
+  height: 31px;
+}
+.card .book-image {
+  overflow: hidden;
+  margin: 5px;
+}
+.card .book-image img {
+  width: 133px;
+  height: 203.05px;
+}
+.card .book-price {
+  margin: 5px;
+  height: 25px;
+}
+.card .book-order {
+  margin: 5px;
+}
+.card .book-order button {
+  border: 2px solid #550D0E;
+  color: #550D0E;
+  width: 100px;
+  height: 30px;
+  background: #E7D6AC;
+  border-radius: 20px;
+}
+.card .book-order button:hover {
+  background-color: #F9F4DB;
+  cursor: pointer;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: #550D0E;
+  padding: 20px;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+nav ul li {
+  margin-left: 40px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #550D0E;
+}
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 100%;
+}
+main .header {
+  padding: 10px;
+  background-color: #E7D6AC;
+  color: white;
+  width: 100%;
+  height: 60px;
+}
+main .container {
+  padding: 10px;
+  background-color: white;
+  color: #550D0E;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  padding: 10px;
+  background-color: #E7D6AC;
+  color: white;
+  height: 60px;
+  width: 100%;
+}
+
+/*
+@import "forms";
+@import "link";
+@import "buttons";
+
+@import "margin";
+@import "padding";
+
+@import "modal";
+@import "navbar";
+@import "row_col";
+@import "table";
+@import "setting";
+@import "images";
+@import "icons";
+*/

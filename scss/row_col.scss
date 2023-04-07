@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: right;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col.j-c-sp-ar{
+    justify-content: space-around;
+}
+.col.j-c-sp-bt{
+    justify-content: space-between;
+}
+.col.j-c-sp-ev{
+    justify-content: space-evenly;
+}
